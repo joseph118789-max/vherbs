@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Facility Tour — VHerbs</title>
+  <meta name="description" content="A walk-through of the VHerbs production facility in Malaysia: PPE, gowning, processing, packing, and dispatch." />
+  <link rel="stylesheet" href="css/styles.css" />
+  <link rel="icon" type="image/png" href="assets/logos/vherbs-logo.png" />
+</head>
+<body>
+
+  <header class="site-header">
+    <nav class="nav">
+      <a class="nav-logo" href="index.html">
+        <img src="assets/logos/vherbs-logo.png" alt="VHerbs" />
+      </a>
+      <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="facility.html" class="active">Facility</a></li>
+        <li><a href="products.html">Products</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section>
+    <div class="section-inner">
+      <h1 class="section-title">Facility <span class="leaf">tour</span></h1>
+      <p class="section-subtitle">
+        A walk-through of how a VHerbs product moves through our facility — from
+        receiving to dispatch. Click any photo to enlarge.
+      </p>
+
+      <!-- Gallery -->
+      <div class="gallery" id="gallery">
+        <figure class="gallery-item" data-caption="PPE standard for production staff — full gowning including apron, gloves, mask, and head covering.">
+          <img src="assets/images/01-ppe-with-apron.jpg" alt="Staff in full PPE with white apron" loading="lazy" />
+          <figcaption class="gallery-caption">
+            Staff PPE — with apron
+            <span class="loc">Production gowning</span>
+          </figcaption>
+        </figure>
+
+        <figure class="gallery-item" data-caption="Same staff PPE standard without the outer plastic apron, for less messy operations.">
+          <img src="assets/images/02-ppe-no-apron.jpg" alt="Staff in PPE without apron" loading="lazy" />
+          <figcaption class="gallery-caption">
+            Staff PPE — gown only
+            <span class="loc">Production gowning</span>
+          </figcaption>
+        </figure>
+
+        <figure class="gallery-item" data-caption="Receiving area hallway with a viewing window into production. Spice cartons awaiting QC.">
+          <img src="assets/images/03-hallway-receiving.jpg" alt="Receiving hallway with spice cartons" loading="lazy" />
+          <figcaption class="gallery-caption">
+            Receiving hallway
+            <span class="loc">Goods-in</span>
+          </figcaption>
+        </figure>
+
+        <figure class="gallery-item" data-caption="Small-batch / R&D prep room with a stainless steel mixer and a dedicated prep sink. Used for sample batches and recipe development.">
+          <img src="assets/images/04-rnd-prep-room.jpg" alt="R&D / small-batch prep room with mixer and sink" loading="lazy" />
+          <figcaption class="gallery-caption">
+            R&D / sample prep
+            <span class="loc">R&D room</span>
+          </figcaption>
+        </figure>
+
+        <figure class="gallery-item" data-caption="Finished-goods storage area with packed VHerbs boxes on pallets. Knorr bulk cartons in the foreground for repacking orders.">
+          <img src="assets/images/05-finished-goods-1.jpg" alt="Finished-goods storage with VHerbs boxes" loading="lazy" />
+          <figcaption class="gallery-caption">
+            Finished-goods storage
+            <span class="loc">Dispatch holding</span>
+          </figcaption>
+        </figure>
+
+        <figure class="gallery-item" data-caption="Same storage area from another angle. Packed VHerbs boxes on pallets, ready for dispatch.">
+          <img src="assets/images/06-finished-goods-2.jpg" alt="Finished-goods storage with branded boxes" loading="lazy" />
+          <figcaption class="gallery-caption">
+            Finished-goods storage — alt angle
+            <span class="loc">Dispatch holding</span>
+          </figcaption>
+        </figure>
+
+        <figure class="gallery-item" data-caption="Looking toward the back of finished-goods storage. Bulk ingredient sacks and VHerbs finished packs on separate pallets.">
+          <img src="assets/images/07-finished-goods-3.jpg" alt="Finished-goods storage with bulk sacks" loading="lazy" />
+          <figcaption class="gallery-caption">
+            Finished-goods — bulk sacks and packed product
+            <span class="loc">Dispatch holding</span>
+          </figcaption>
+        </figure>
+
+        <figure class="gallery-item" data-caption="Loading dock area with a manual pallet jack, packing materials, and a closed roller shutter. Finished goods leave the facility from here.">
+          <img src="assets/images/08-loading-dock.jpg" alt="Loading dock with pallet jack and roller shutter" loading="lazy" />
+          <figcaption class="gallery-caption">
+            Loading dock
+            <span class="loc">Goods-out</span>
+          </figcaption>
+        </figure>
+
+        <figure class="gallery-item" data-caption="Gowning / handwash station at the entrance to the production zone. Staff wash and don full PPE before entering.">
+          <img src="assets/images/09-gowning-qc-entry.jpg" alt="Gowning and handwash station with stainless table and exit door" loading="lazy" />
+          <figcaption class="gallery-caption">
+            Gowning & handwash station
+            <span class="loc">Production entrance</span>
+          </figcaption>
+        </figure>
+      </div>
+    </div>
+  </section>
+
+  <!-- Lightbox -->
+  <div class="lightbox" id="lightbox" role="dialog" aria-modal="true" aria-label="Image viewer">
+    <button class="lightbox-close" id="lightbox-close" aria-label="Close">×</button>
+    <img id="lightbox-img" src="" alt="" />
+    <div class="lightbox-cap" id="lightbox-cap"></div>
+  </div>
+
+  <footer class="site-footer">
+    <div class="footer-inner">
+      <div>
+        <h4>VHerbs</h4>
+        <p style="opacity: 0.8;">Halal-certified herbs and spices, produced in Malaysia with care.</p>
+      </div>
+      <div>
+        <h4>Visit</h4>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="facility.html">Facility</a></li>
+          <li><a href="products.html">Products</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Contact</h4>
+        <ul>
+          <li><a href="contact.html">Send enquiry</a></li>
+          <li><a href="mailto:hello@vherbs.com.my">hello@vherbs.com.my</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>© 2026 VHerbs. All rights reserved.</span>
+      <span>Malaysia Halal · MS1500 · 1 028-06/2025</span>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>

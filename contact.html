@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Contact — VHerbs</title>
+  <meta name="description" content="Contact VHerbs for wholesale enquiries, private label, or general questions about our halal-certified herbal products." />
+  <link rel="stylesheet" href="css/styles.css" />
+  <link rel="icon" type="image/png" href="assets/logos/vherbs-logo.png" />
+</head>
+<body>
+
+  <header class="site-header">
+    <nav class="nav">
+      <a class="nav-logo" href="index.html">
+        <img src="assets/logos/vherbs-logo.png" alt="VHerbs" />
+      </a>
+      <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="facility.html">Facility</a></li>
+        <li><a href="products.html">Products</a></li>
+        <li><a href="contact.html" class="active">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section>
+    <div class="section-inner">
+      <h1 class="section-title">Get in <span class="leaf">touch</span></h1>
+      <p class="section-subtitle">
+        Wholesale enquiries, private label, custom blends, or general questions —
+        we'd love to hear from you.
+      </p>
+
+      <div class="contact-grid">
+        <div class="contact-info">
+          <p><strong>Email</strong> <a href="mailto:vherbs168@gmail.com">vherbs168@gmail.com</a></p>
+          <p><strong>Wholesale</strong> <a href="mailto:vherbs168@gmail.com">vherbs168@gmail.com</a></p>
+          <p><strong>Phone</strong> <a href="tel:+60380815338">+60 3-8081 5338</a></p>
+          <p><strong>Address</strong> 6, Jalan Industri USJ 1/6, Taman Perindustrian USJ 1, 47600 Subang Jaya, Selangor</p>
+          <p><strong>Hours</strong> Mon-Friday 8.30am-6.30pm</p>
+
+          <div style="margin-top: 24px; padding: 16px; background: var(--cream-deep); border-radius: 6px;">
+            <strong style="color: var(--spice-deep);">Visiting the facility?</strong>
+            <p style="margin: 8px 0 0; font-size: 14px;">
+              Please contact us in advance. Visitors are escorted at all times and
+              must follow our PPE policy in production areas.
+            </p>
+          </div>
+        </div>
+
+        <form id="contact-form" action="#" method="post">
+          <label for="name">Your name</label>
+          <input type="text" id="name" name="name" required />
+
+          <label for="company">Company (optional)</label>
+          <input type="text" id="company" name="company" />
+
+          <label for="email">Email</label>
+          <input type="email" id="email" name="email" required />
+
+          <label for="topic">What is this about?</label>
+          <select id="topic" name="topic">
+            <option>General enquiry</option>
+            <option>Wholesale order</option>
+            <option>Private label / custom blend</option>
+            <option>Facility visit</option>
+            <option>Other</option>
+          </select>
+
+          <label for="message">Message</label>
+          <textarea id="message" name="message" required></textarea>
+
+          <button type="submit">Send enquiry</button>
+          <p class="form-note">
+            This form is a placeholder. Backend submission is not wired up yet —
+            connect to your preferred form service (Formspree, Netlify Forms, or
+            your own endpoint) before going live.
+          </p>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <footer class="site-footer">
+    <div class="footer-inner">
+      <div>
+        <h4>VHerbs</h4>
+        <p style="opacity: 0.8;">Halal-certified herbs and spices, produced in Malaysia with care.</p>
+      </div>
+      <div>
+        <h4>Visit</h4>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="facility.html">Facility</a></li>
+          <li><a href="products.html">Products</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Contact</h4>
+        <ul>
+          <li><a href="contact.html">Send enquiry</a></li>
+          <li><a href="mailto:vherbs168@gmail.com">vherbs168@gmail.com</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>© 2026 VHerbs. All rights reserved.</span>
+      <span>Malaysia Halal · MS1500 · 1 028-06/2025</span>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
